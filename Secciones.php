@@ -27,12 +27,12 @@
 
 		}
 		echo "</h2>";
-		echo "<a href='PaginaLogin.html'>Salir</a>";
+		echo "<a href='index.html'>Salir</a>";
 
 	}
 	else {
 		echo "<h1>Aún no existen categorías de esta sección</h1>";
-		echo "<a href='PaginaLogin.html' Salir</a>";
+		echo "<a href='index.html' Salir</a>";
 	}
 
 $mysqli->close();

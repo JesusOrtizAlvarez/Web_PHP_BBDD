@@ -51,16 +51,16 @@
 
 			}
 			echo "</table>";
-			echo "<a href='PaginaLogin.html'>Salir</a>";
+			echo "<a href='index.html'>Salir</a>";
 		}
 		else {
 			echo "<h1>Aún no existen compras para esa empresa</h1>";
-			echo "<a href='PaginaLogin.html' Salir</a>";
+			echo "<a href='index.html' Salir</a>";
 		}
 	}
 	else {
 		echo "<h1>Ese nombre de empresa ($login) NO EXISTE</h1>";
-		echo "<a href='PaginaLogin.html'>Volver atrás</a>";
+		echo "<a href='index.html'>Volver atrás</a>";
 	}
 
 	$mysqli->close();

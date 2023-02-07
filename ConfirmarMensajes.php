@@ -27,7 +27,7 @@
 		echo "Problemas de envio<br>";
 	}
 
-	echo "<a href='PaginaLogin.html'>Volver atrás</a>";
+	echo "<a href='index.html'>Volver atrás</a>";
 	
 	//	Cerrar la conexión
 	$mysqli->close();
