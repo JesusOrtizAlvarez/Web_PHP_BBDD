@@ -1,0 +1,10 @@
+body
+{
+ text-align:center;
+ width:100%;
+ font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+ background: #BFD8D2;
+}
+table, th, td {
+  border: 1px solid black;
+}
