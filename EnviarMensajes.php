@@ -30,7 +30,7 @@
 			echo "<input type='submit' value='Confirmar envio' />";
 		echo "</form>";
 
-       echo "<a href='PaginaLogin.html'>Volver atrás</a><br/>";
+       echo "<a href='index.html'>Volver atrás</a><br/>";
 
 	$mysqli->close();
 ?>

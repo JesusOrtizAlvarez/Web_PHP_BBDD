@@ -29,18 +29,18 @@
 		if ($secciones->num_rows > 0){
 		while ($filaSecciones = $secciones->fetch_object()) {
 
-			echo "<a href = 'secciones.php?seccion=$filaSecciones->IdSeccion&login=$login'>".$filaSecciones->Nombre3. "</a>";
+			echo "<a href = 'Secciones.php?seccion=$filaSecciones->IdSeccion&login=$login'>".$filaSecciones->Nombre3. "</a>";
 			echo "<br/>";
 		}
 			echo "</h2>";
-			echo "<a href='PaginaLogin.html'>Salir</a>";
+			echo "<a href='index.html'>Salir</a>";
 
 	} else
 		echo "<h1>Aún no existe el usuario introducido</h1>";
-		echo "<a href='PaginaLogin.html' Salir</a>";
+		echo "<a href='index.html' Salir</a>";
 	} else {
 		echo "<h1>Ese nombre de usuario no se encuentra en la base de datos</h1>";
-		echo "<a href='PaginaLogin.html'>Volver atrás</a>";
+		echo "<a href='index.html'>Volver atrás</a>";
 	}
 
 $mysqli->close();
